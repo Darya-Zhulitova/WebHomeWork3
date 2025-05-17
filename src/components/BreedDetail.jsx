@@ -1,7 +1,7 @@
 import {useEffect} from 'react'
-import {useCatContext} from '../context/CatContext.js'
+import {useCatContext} from '../context/CatContext'
 import {useCatAPI} from '../hooks/useCatAPI'
-import CloseButton from './CloseButton.js'
+import CloseButton from './CloseButton'
 
 const BreedDetail = () => {
     const {selectedBreed, showDetail} = useCatContext()

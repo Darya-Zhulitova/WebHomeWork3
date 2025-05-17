@@ -1,4 +1,4 @@
-import {useCatContext} from '../context/CatContext.js'
+import {useCatContext} from '../context/CatContext'
 
 const CloseButton = () => {
     const {setShowDetail} = useCatContext()

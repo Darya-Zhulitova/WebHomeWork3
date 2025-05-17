@@ -1,7 +1,7 @@
 import {useEffect} from 'react'
 import {useCatAPI} from '../hooks/useCatAPI'
-import {useCatContext} from '../context/CatContext.js'
-import BreedItem from './BreedItem.js'
+import {useCatContext} from '../context/CatContext'
+import BreedItem from './BreedItem'
 
 const BreedList = () => {
     const {breeds, loading, error, fetchBreeds} = useCatAPI()
