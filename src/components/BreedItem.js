@@ -1,4 +1,4 @@
-import {useCatContext} from '../context/CatContext'
+import {useCatContext} from '../context/CatContext.js'
 
 const BreedItem = ({breed}) => {
     const {setSelectedBreed, setShowDetail} = useCatContext()

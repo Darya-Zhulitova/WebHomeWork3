@@ -1,7 +1,7 @@
-import {CatProvider} from '../context/CatContext'
-import Header from './Header'
-import BreedList from './BreedList'
-import BreedDetail from './BreedDetail'
+import {CatProvider} from '../context/CatContext.js'
+import Header from './Header.js'
+import BreedList from './BreedList.js'
+import BreedDetail from './BreedDetail.js'
 import '../App.css'
 
 const App = () => {
